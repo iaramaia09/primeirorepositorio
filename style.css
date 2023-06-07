@@ -1,9 +1,52 @@
-body{
-    background-color: #b49595;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-
+html{
+    height: 100%
 }
+
+body{
+    background-color: #2d3250;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+h1{
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+button{
+    background-color: #f9b17a;
+    border: none;
+    border-radius: 10px;
+    color: #2d3250;
+    padding: 10px 40px;
+    margin: 0px 20px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: #ffddc4;
+    cursor: pointer;
+    transform: rotate(5deg);
+}
+
+a{
+    color:#f9b17a;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+    margin-top: 20px
+}
+
+.botao{
+    display:flex;
+    justify-content: center
+}
+
+
+
